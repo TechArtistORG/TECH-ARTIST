@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.body{
+  background-color:black; 
+  height: 1400px;
+  color:white;
+  justify-items: center;
+}
+.header{
+  height: 6%;
+  width:100%;
+  background-color: aqua;
+  justify-items:center;
+  color:black;
+  h6{
+    position:relative;
+    top:20%;
+  }
+  
+}
+.logo{
+  background-color: black;
+  height: 10%;
+  justify-items: center;
+  text-align: center;
+  border-radius: 50px;
+  margin-top:-4%;
+  margin-bottom: 4%;
+  
+  img{
+    margin-top:1%; 
+    height: 40%;
+  }
+  p{
+    font-weight: 600;
+  }
+  div{
+    width:90%;
+  }
+}
+.customer-panel{
+  margin-top:20px;
+  height: 10%;
+  width:90%;
+  
+  h4{
+    position:relative;
+    left:-10px;
+  }
+  .customer-box{
+    height: 80%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+       div{
+         height: 90px;
+          width:100px;
+            border-radius: 50%;
+           background-color: white;
+           }
+  }
+  
+}
