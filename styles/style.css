@@ -12,9 +12,10 @@
  header{
    width:100%;
    height: 6%;
-   background-color: ;
+   background-color:white;
    color:black;
    justify-items: center;
+   margin:0px;
             p{
               margin-top: 2%;
               font-weight: 600;
@@ -54,14 +55,15 @@
     height: 6%;
     width:95%;
     margin-top:60px; 
-      margin-bottom: 50px; 
-    border-radius: 10px;
-    background-image: linear-gradient(aqua,black);
+      margin-bottom: 30px; 
+    border-radius: 15px;
+    background-image: linear-gradient(#D9D9D9,black);
     justify-items: center;
     align-content:center;
       justify-content: center;
     p{
-      font-size: 140%; 
+      margin-top:-40px;
+      font-size: 160%; 
       font-family:  cursive;
       text-align: center;
       color:black;
@@ -71,13 +73,9 @@
 
 h3{
   font-family:cursive;
+  font-size: 200%;
 }
-hr{
-  height: 4px;
-  width:90%;
-  background-image:linear-gradient(black,aqua,black); 
-  border:0px
-}
+
 .customer{
   height: 8%;
   width:100%;
@@ -89,7 +87,39 @@ hr{
     height: 150px;
     width:150px;
     border-radius: 50%;
-    background-image:linear-gradient(aqua,black);
+    background-color:#D9D9D9;
+  }
+}
+
+.detail-software{
+  display: flex;
+  justify-content:center;
+  justify-items: center;
+  height: 8%;
+  width:100%;
+  margin-top: 5%;
+  margin-bottom: 0px;
+  div{
+    height: 50%;
+    width:40%;
+    background-color: #D9D9D9;
+    margin-right:1%;
+    margin-left: 1%;
+  }
+}
+.detail-language{
+  margin-top:-6%;
+  display: flex;
+  justify-content:center;
+  justify-items: center;
+  height: 8%;
+  width:100%;
+  div{
+    height: 50%;
+    width:30%;
+    background-color: #D9D9D9;
+    margin-right:1%;
+    margin-left: 1%;
   }
 }
 
