@@ -12,7 +12,7 @@
  header{
    width:100%;
    height: 6%;
-   background-color: white;
+   background-color: ;
    color:black;
    justify-items: center;
             p{
@@ -51,79 +51,45 @@
   }
     .description{
     background-color:#D9D9D9;
-    height: 13%;
-    width:100%;
-    margin-top:30px; 
+    height: 6%;
+    width:95%;
+    margin-top:60px; 
       margin-bottom: 50px; 
     border-radius: 10px;
-    background-image: linear-gradient(black,white,black);
+    background-image: linear-gradient(aqua,black);
     justify-items: center;
     align-content:center;
+      justify-content: center;
     p{
       font-size: 140%; 
       font-family:  cursive;
+      text-align: center;
+      color:black;
     }
-    a{
-      font-weight: 900;
-      text-decoration: none;
-      color:#737D6F;
-    }
-    }
-
- .detail-panel{
-    margin-top:-13%; 
-    height: 18%;
-    width:100%;
-    background-image:linear-gradient(white,#686675);
-    justify-items: center;
-    align-content:center;
-    .brand-details{
-      height: 8%;
-      width:100%;
-      justify-items: center;
-      margin-top: 2%;
-      margin-bottom: 4%;
-      color:white;
-    }
-    hr{
-      margin: 1%;
-      width:90%;
-      height: 2px;
-      border:0px;
-      background-color:white;
       
     }
-    .developer-details{
-      height: 7%;
-      width:100%;
-      justify-items: center;
-      align-content:center;
-      justify-content:center;
-      justify-items: center;
-      margin-top: 1%;
-      img{
-        height: 10%;
-        width:10%;
-        
-      }
-    }
-}
-    
-.animation{
-  .border-white:hover{
-    border:2px solid white;
-    border-radius: 5px;
-  }
-  .border-black:hover{
-    border:2px solid black;
-    border-radius: 5px;
-  }
-  input:active{
-    text-decoration: none;
-  }
-  button:hover{
-    background-color: #D9D9D9D9; 
-  }
 
+h3{
+  font-family:cursive;
+}
+hr{
+  height: 4px;
+  width:90%;
+  background-image:linear-gradient(black,aqua,black); 
+  border:0px
+}
+.customer{
+  height: 8%;
+  width:100%;
+  background-color: ;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  div{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    background-image:linear-gradient(aqua,black);
+  }
 }
 
