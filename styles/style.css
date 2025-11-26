@@ -2,14 +2,15 @@
   margin: 0px;
   padding: 0px;
 }
-.body{
-  height:3400px;
+
+body{
+  height:2400px;
   color:white;
   justify-items: center;
   background-color:black; 
 }
 .header{
-  height: 3%;
+  height: 6%;
   width:100%;
   background-color: aqua;
   justify-items:center;
@@ -44,7 +45,7 @@
       background-color:;
       height: 13%;
       width:90%;
-      margin-top:30px; 
+      margin-top:10px; 
       border-radius: 10px;
       background-image: linear-gradient(#D9D9D9, black);
       justify-items: center;
