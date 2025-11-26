@@ -2,11 +2,13 @@
   margin: 0px;
   padding: 0px;
 }
+
 .body{
   height: 2400px;
   width:100% ;
   background-color: rgba(0,0,0,1);
   justify-items: center;
+  color:white;
 }
 header{
    width:100%;
@@ -17,7 +19,8 @@ header{
    justify-content: space-evenly;
             p{
               font-weight: 600;
-              margin-top:2%; 
+              margin-top:2%;
+              color:black;           
             }
  } 
 .header-panel{
@@ -26,4 +29,37 @@ header{
    background-color:rgba(0,0,0,1) ;
   border-radius:70px;
   margin-top: -7%;
+  justify-items:center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  .img{
+    align-content: center;
+    align-items: center;
+    height: 70%;
+    width:20%;
+    margin-right:-12%;
+    
+    img{
+      height: 50%;
+      width:35%;
+      margin-right:;
+    }
+  }
+  .text{
+    align-content: center;
+    align-items: center;
+    height: 70%;
+    width:20%;
+    margin-left:-0%;
+    h1{
+      font-family: 'Lilita One';
+      font-weight: 900;
+    }
+    p{
+      font-family:'lemon'
+      font-weight: 700;
+    }
+    
+  }
 }
