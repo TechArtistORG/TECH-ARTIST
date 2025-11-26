@@ -40,28 +40,3 @@
     width:90%;
   }
 }
-.customer-panel{
-  margin-top:20px;
-  height: 10%;
-  width:90%;
-  
-  h4{
-    position:relative;
-    left:-10px;
-  }
-  .customer-box{
-    height: 80%;
-    width:100%;
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-items: center;
-       div{
-         height: 90px;
-          width:100px;
-            border-radius: 50%;
-           background-color: white;
-           }
-  }
-  
-}
