@@ -12,12 +12,12 @@
 
 
 .header{
-  height: 3%;
+  height: 3.5%;
   width:100%;
   background-color: aqua;
   justify-items:center;
   color:black;
-  h6{
+  h4{
     position:relative;
     top:10%;
   }
@@ -30,7 +30,7 @@
   text-align: center;
   border-radius: 50px;
   margin-top:-4%;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
   
   img{
     margin-top:1%; 
@@ -44,12 +44,32 @@
     width:90%;
   }
 }
-
+.advertisment{
+  height: 15%;
+  width:100%;
+  justify-items: center;
+  justify-content: center;
+  
+  .box1{
+    height: 25%;
+    width:85%;
+    background-image: linear-gradient(#2A1F1F,black),linear-gradient(#2A1F1F,black);
+    border-radius: 10px;
+  }
+  .box2{
+    height: 25%;
+    width:90%;
+    background-image: linear-gradient(#2A1F1F,black),linear-gradient(#2A1F1F,black);
+    border-radius: 10px;
+    
+  }
+  
+}
   .service-box{
-    margin-bottom: 10px;
-      height: 43%;
-      width:90%;
-      margin-top:-5%; 
+    margin-bottom:7%;
+      height: 50%;
+      width:94%;
+      margin-top:-15%; 
       border-radius: 10px;
       background-image: linear-gradient(#2A1F1F,black);
       justify-items: center;
@@ -59,11 +79,14 @@
       h4{
         font-size: 220%; 
         font-family:  cursive;
+        margin-top: 0%;
+        margin-bottom: 1%;
       }
       .service{
         height: 30%;
-        width:90%;
+        width:95%;
         margin-bottom: 2%;
+        border-radius: 5px;
         background-image: linear-gradient(#AE7B7B,#342A2A,black);
         align-items: center;
         display: flex;
@@ -75,8 +98,8 @@
           
         }
         .img{
-          height:80%;
-          width:30%;
+          height:85%;
+          width:60%;
           background-image: linear-gradient(#AE7B7B,#342A2A,black);
           border-radius: 40px;
           
@@ -84,52 +107,77 @@
         .text{
           align-content:center;
           height: 90%;
-          width:60%;
-          h5{
-            font-weight: 600;
-            font-size: 100%;
+          width:30%;
+          h6{
+            font-weight: 900;
+            font-size: 80%;
             font-family:  cursive;
+            margin-bottom: 4%;
           }
           p{
             font-size: 80%;
+            margin-bottom: 2%;
           }
           button{
             margin-top: 2%;
             height: 10%;
             width:40%;
-            background-image: linear-gradient(#AE7B7B,black);
+            background-image: linear-gradient(#AE7B7B,#342A2A,black);
             color:white;
             border:0px;
+            border-radius: 2px;
+            font-weight: 900;
+            font-size: 90%;
+            font-family:  cursive;
           }
         }
       }
     
   }
-.poster{
-  height: 20%;
+.end-box{
+  height: 6%;
   width:100%;
-  background-color:black;
-}
- .project-box{
-      margin-top:10px;
-      height: 43%;
-      width:90%;
-      border-radius: 10px;
-      background-image: linear-gradient(#2A1F1F,black);
+  background-image:linear-gradient(black,#AE7B7B);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  justify-content: center;
+  position: sticky;
+  bottom: -60%;
+   .developer-details{
+      height: 80%;
+      width:100%;
       justify-items: center;
-      justify-content: center;
-      align-items:center;
+      align-content:center;
+      justify-content:center;
+      justify-items: center;
+      margin-top: 1%;
+     
+      img{
+        height: 10%;
+        width:10%;
+        
+      }
+    }
+}
+.animaton{
+  
+}
+.tools{
+  .not-available{
+    height: 5%;
+    width:90%;
+    background-image: linear-gradient(#AE7B7B,#342A2A,black);
+    justify-content: center;
+    justify-items: center;
     text-align: center;
-      h5{
-        font-size: 220%; 
-        font-family:  cursive;
-      }
-      div{
-        height: 30%;
-        margin-bottom: 2%;
-        width:90%;
-        background-image: linear-gradient(#AE7B7B,#342A2A,black);
-        justify-items: center;
-        align-items: center;
-      }
+    align-items: center;
+    align-content: center;
   }
+}
+.parent{
+ flex-wrap: wrap; 
+  gap: 1rem;
+}
+.children{
+  flex:1 1 auto;
+}
