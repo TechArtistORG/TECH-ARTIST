@@ -2,13 +2,23 @@
   margin: 0px;
   padding: 0px;
 }
-
-body{
+@media screen and (min-width:1000px){
+  body{
   height:2400px;
   color:white;
   justify-items: center;
   background-color:black; 
 }
+}
+@media screen and (max-width:600px){
+  body{
+  height:2400px;
+  color:white;
+  justify-items: center;
+  background-color:black; 
+}
+}
+
 .header{
   height: 3%;
   width:100%;
@@ -54,18 +64,50 @@ body{
       justify-content: center;
       align-items:center;
     text-align: center;
-      h5{
-        font-size: 170%; 
+      h4{
+        font-size: 220%; 
         font-family:  cursive;
       }
-      div{
+      .service{
         height: 30%;
         width:90%;
         margin-bottom: 2%;
         background-image: linear-gradient(#AE7B7B,#342A2A,black);
-        justify-items: center;
         align-items: center;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        div{
+          
+          margin: 10px;
+          
+        }
+        .img{
+          height:80%;
+          width:30%;
+          background-image: linear-gradient(#AE7B7B,#342A2A,black);
+          border-radius: 40px;
+          
+        }
+        .text{
+          align-content:center;
+          height: 90%;
+          width:60%;
+          h5{
+            font-weight: 600;
+            font-size: 100%;
+            font-family:  cursive;
+          }
+          p{
+            font-size: 80%;
+          }
+          button{
+            height: 10%;
+            width:40%;
+          }
+        }
       }
+    
   }
 .poster{
   height: 20%;
@@ -83,7 +125,7 @@ body{
       align-items:center;
     text-align: center;
       h5{
-        font-size: 170%; 
+        font-size: 220%; 
         font-family:  cursive;
       }
       div{
